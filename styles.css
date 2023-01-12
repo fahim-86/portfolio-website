@@ -7,17 +7,59 @@ body{
   background-color: #E5E5E5;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-right: 20%;
+}
+
 .pf-wrap{
   max-width: 375px;
+  min-height: 718px;
   border: 1px solid black;
   margin: 5vh auto 5vh auto;
+  background-image: url("../portfolio-website/img/header-background-mobile.png");
 }
 
 .pf-header{
-  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
 }
 
 .pf-logo{
   width: 56px;
+}
+
+.pf-headline{
+  background-image: url("../portfolio-website/img/header-shapes-mobile.png");
+  min-height: 600px;
+  background-repeat: no-repeat;
+}
+
+.contents {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents > p {
+  font-weight: 400;
+  margin-top: 0;
+  line-height: 24px;
+  color: #344563;
+}
+
+.social-link > p {
+  color: #7F8CFF;
+}
+
+.social-link > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px;
+  gap: 7%;
 }
