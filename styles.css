@@ -1,10 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
-body{
-  font-family:'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   font-size: 16px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 h2 {
@@ -14,7 +14,7 @@ h2 {
   padding-right: 20%;
 }
 
-.pf-wrap{
+.pf-wrap {
   max-width: 375px;
   min-height: 718px;
   border: 1px solid black;
@@ -22,26 +22,26 @@ h2 {
   background-image: url("../portfolio-website/img/header-background-mobile.png");
 }
 
-.pf-header{
+.pf-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
 }
 
-.pf-logo{
+.pf-logo {
   width: 56px;
 }
 
 .material-symbols-outlined {
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .material-symbols-outlined:hover {
   font-size: 28px;
 }
 
-.pf-headline{
+.pf-headline {
   background-image: url("../portfolio-website/img/header-shapes-mobile.png");
   min-height: 600px;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .social-link > p {
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .social-link > ul {
