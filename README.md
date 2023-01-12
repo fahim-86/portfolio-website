@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <h3><b><i>"Hello Microverse"</i> Project</b></h3>
+  <h3><b><i>Personal Portfolio</i> Project</b></h3>
 
 </div>
 
@@ -45,17 +45,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 "Hello Microverse" <a name="about-project"></a>
+# 📖 Personal Portfolio <a name="about-project"></a>
 
-> First Microverse Project to show the understanding of the tools and best practices I learned about in previous steps.
-
-**"Hello Microverse"** is a project based on HTML & CSS
+First milestone in the process of creating a personal portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project has build using simple <b>HTML</b> & <b>CSS</b>
+> This project has build using simple <b>HTML</b> & <b>CSS Flex</b>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
