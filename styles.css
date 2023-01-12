@@ -33,6 +33,14 @@ h2 {
   width: 56px;
 }
 
+.material-symbols-outlined {
+  color: #6070FF;
+}
+
+.material-symbols-outlined:hover {
+  font-size: 28px;
+}
+
 .pf-headline{
   background-image: url("../portfolio-website/img/header-shapes-mobile.png");
   min-height: 600px;
