@@ -67,6 +67,7 @@ h2 {
 .social-link > ul {
   list-style: none;
   display: flex;
+  align-items: baseline;
   justify-content: flex-start;
   padding: 0px;
   gap: 7%;
