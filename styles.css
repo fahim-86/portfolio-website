@@ -1,17 +1,21 @@
-@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url("https://fonts.cdnfonts.com/css/poppins");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   font-size: 16px;
   background-color: #e5e5e5;
 }
 
-h2 {
+h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   padding-right: 20%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .pf-wrap {
@@ -59,7 +63,7 @@ h2 {
   color: #344563;
 }
 
-.social-link > p {
+.social-link > a > p {
   color: #7f8cff;
 }
 
