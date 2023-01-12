@@ -17,7 +17,6 @@ h2 {
 .pf-wrap {
   max-width: 375px;
   min-height: 718px;
-  border: 1px solid black;
   margin: 5vh auto 5vh auto;
   background-image: url("../portfolio-website/img/header-background-mobile.png");
 }
