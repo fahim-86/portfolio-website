@@ -45,15 +45,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 About the Project <a name="about-project"></a>
 
-First milestone in the process of creating a personal portfolio website.
+It is a personal portfolio mobile view page devided into three sections:
+
+- Introduction
+- Work
+- About us
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project has build using simple <b>HTML</b> & <b>CSS Flex</b>
+> This project has build using simple <b>HTML</b> & <b>CSS Flex</b> & <b>Grid</b>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
