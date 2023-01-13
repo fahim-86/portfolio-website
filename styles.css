@@ -2,9 +2,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: #172b4d;
   margin: 0;
   font-size: 16px;
-  background-color: #e5e5e5;
+  background-color: #b9b7b7;
 }
 
 h1 {
@@ -14,16 +15,29 @@ h1 {
   padding-right: 20%;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 8px 0 0;
+}
+
 a {
   text-decoration: none;
 }
 
+hr {
+  border-color: #dfe1e6;
+  opacity: 0.4;
+}
+
 .pf-wrap {
   max-width: 375px;
-  min-height: 718px;
+  height: auto;
   margin: 5vh auto 5vh auto;
   background-image: url("./img/header-background-mobile.png");
   background-repeat: no-repeat;
+  background-color: #e5e5e5;
 }
 
 .pf-header {
@@ -75,4 +89,124 @@ a {
   justify-content: flex-start;
   padding: 0;
   gap: 7%;
+}
+
+.pf-works {
+  margin-top: 30%;
+}
+
+.pf-portfolio {
+  background-color: #e5e5e5;
+  display: grid;
+  row-gap: 80px;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #ffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.under-header-text {
+  display: flex;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.under-header-text > ul {
+  display: flex;
+  gap: 29px;
+  color: #7a869a;
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 28px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.btn {
+  background-color: #ebebff;
+  border-radius: 8px;
+  border: none;
+  color: #6070ff;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #6070ff;
+}
+
+.btn-large {
+  background-color: transparent;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  padding: 12px 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 22px;
+}
+
+.btn-large:hover {
+  color: #fff;
+  background-color: #6070ff;
+  font-weight: bold;
+}
+
+.pf-about > .contents > .btn-large {
+  width: 160px;
+}
+
+.pf-about {
+  background-color: #ffff;
+  border-top-right-radius: 85px;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.section-dropdown {
+  margin-top: 35px;
+  padding: 0 12px;
+}
+
+.drop-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.dd-box {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  gap: 12px;
+  justify-content: flex-start;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.dd-box:hover {
+  background-color: transparent;
+  border: 1px solid #f7f7f9;
 }
