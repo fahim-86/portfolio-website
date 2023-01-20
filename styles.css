@@ -454,6 +454,10 @@ textarea::placeholder {
     width: 56px;
   }
 
+  .rub {
+    display: none;
+  }
+
   .material-symbols-outlined {
     color: #6070ff;
   }
@@ -596,7 +600,7 @@ textarea::placeholder {
   }
 }
 
-@media only screen and (min-width: 1441px) {
+@media screen and (min-width: 1441px) {
   /* For Larger Display */
   .pf-wrap {
     width: 60%;
