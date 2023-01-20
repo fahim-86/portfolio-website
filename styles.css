@@ -112,7 +112,7 @@ hr {
 .pf-about {
   background-color: #ffff;
   border-top-right-radius: 85px;
-  margin-top: 100px;
+  margin-top: 60px;
   padding-top: 40px;
   padding-bottom: 123px;
 }
@@ -208,6 +208,10 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 545px) {
+  h1 {
+    padding-right: 45%;
+  }
+
   input {
     border-radius: 2px;
   }
@@ -228,7 +232,7 @@ textarea::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 7rem;
     background-color: #fff;
   }
 
@@ -262,7 +266,17 @@ textarea::placeholder {
     align-items: center;
   }
 
-  .contents {
+  .hdl-contents {
+    margin: auto;
+    width: 50%;
+    padding: 187px 0 273px 0;
+  }
+
+  .social-link {
+    margin-top: 35px;
+  }
+
+  .abt-contents {
     display: flex;
     margin: auto;
     width: 85%;
@@ -291,6 +305,14 @@ textarea::placeholder {
 
   .card > img {
     width: 50%;
+  }
+
+  .c-2 {
+    flex-direction: row-reverse;
+  }
+
+  .c-4 {
+    flex-direction: row-reverse;
   }
 
   .text-contents {
@@ -450,19 +472,19 @@ textarea::placeholder {
     border-bottom-left-radius: 150px;
   }
 
-  .contents {
+  .hdl-contents {
     padding: 133px 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .contents > p {
+  .hdl-contents > p {
     font-weight: 400;
     line-height: 30px;
     color: #344563;
   }
 
-  .pf-about > .contents {
+  .pf-about > .abt-contents {
     padding: 30px 20px;
   }
 
@@ -574,12 +596,12 @@ textarea::placeholder {
   }
 }
 
-/* @media only screen and (min-width: 768px) {
-  For desktop:
+@media only screen and (min-width: 1441px) {
+  /* For Larger Display */
   .pf-wrap {
-    width: 100%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
     background-color: #e5e5e5;
   }
-} */
+}
