@@ -13,12 +13,27 @@
   </head>
   <body>
     <div class="pf-wrap">
+      <!---------------- Desktop Menu ------------>
+      <header class="pf-desktop-header">
+        <a class="pf-logo" href=""><img class="pf-logo" src="./img/F_logo.png" alt="Fahim logo" /></a>
+        <nav class="desktop-nav">
+          <ul class="nav-items">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!----- End Desktop Menu ------>
+
+      <!---------------- Mobile Menu ------------>
       <header class="pf-header">
         <a class="pf-logo" href=""><img class="pf-logo" src="./img/F_logo.png" alt="Fahim logo" /></a>
         <nav class="material-symbols-outlined">menu</nav>
       </header>
+      <!----- End Mobile Menu ------>
       <section class="pf-headline">
-        <div class="contents">
+        <div class="hdl-contents">
           <h1>I’m Fahim Glad to see you!</h1>
           <p>
             I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like
@@ -48,108 +63,127 @@
       </section>
       <section class="pf-works">
         <div class="pf-portfolio">
-          <div class="card">
-            <img src="./img/tonic.png" alt="Tonic section" />
-            <h2>Tonic</h2>
-            <div class="under-header-text">
-              <h4>CANOPY</h4>
-              <ul>
-                <li>Back End Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="buttons">
-              <li class="btn">html</li>
-              <li class="btn">css</li>
-              <li class="btn">javaScript</li>
-            </ul>
-            <button class="btn-large">See Project</button>
-          </div>
-          <div class="card">
-            <img src="./img/mp-stories.png" alt="Multi-post Stories" />
-            <h2>Multi-Post Stories</h2>
-            <div class="under-header-text">
-              <h4>CANOPY</h4>
-              <ul>
-                <li>Back End Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="buttons">
-              <li class="btn">html</li>
-              <li class="btn">css</li>
-              <li class="btn">javaScript</li>
-            </ul>
-            <button class="btn-large">See Project</button>
-          </div>
-          <div class="card">
+          <div class="card c-1">
             <img src="./img/tonic-2.png" alt="Multi-post Stories" />
-            <h2>Tonic</h2>
-            <div class="under-header-text">
-              <h4>CANOPY</h4>
-              <ul>
-                <li>Back End Dev</li>
-                <li>2015</li>
+            <div class="card-text">
+              <h2>Tonic</h2>
+              <div class="under-header-text">
+                <h4>CANOPY</h4>
+                <ul>
+                  <li>Back End Dev</li>
+                  <li>2015</li>
+                </ul>
+              </div>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <ul class="buttons">
+                <li class="btn">html</li>
+                <li class="btn">css</li>
+                <li class="btn">javaScript</li>
               </ul>
+              <button class="btn-large">See Project</button>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="buttons">
-              <li class="btn">html</li>
-              <li class="btn">css</li>
-              <li class="btn">javaScript</li>
-            </ul>
-            <button class="btn-large">See Project</button>
           </div>
-          <div class="card">
+          <div class="card c-2">
             <img src="./img/mp-stories2.png" alt="Multi-post Stories" />
-            <h2>Multi-Post Stories</h2>
-            <div class="under-header-text">
-              <h4>CANOPY</h4>
-              <ul>
-                <li>Back End Dev</li>
-                <li>2015</li>
+            <div class="card-text">
+              <h2>Multi-Post Stories</h2>
+              <div class="under-header-text">
+                <h4>FACEBOOK</h4>
+                <ul>
+                  <li>Back End Dev</li>
+                  <li>2015</li>
+                </ul>
+              </div>
+              <p>
+                Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their
+                friends.
+              </p>
+              <ul class="buttons">
+                <li class="btn">html</li>
+                <li class="btn rub">Ruby on rails</li>
+                <li class="btn">css</li>
+                <li class="btn">javaScript</li>
               </ul>
+              <button class="btn-large">See Project</button>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="buttons">
-              <li class="btn">html</li>
-              <li class="btn">css</li>
-              <li class="btn">javaScript</li>
-            </ul>
-            <button class="btn-large">See Project</button>
+          </div>
+          <div class="card c-3">
+            <img src="./img/tonic.png" alt="Tonic section" />
+            <div class="card-text">
+              <h2>Facebook 360</h2>
+              <div class="under-header-text">
+                <h4>FACEBOOK</h4>
+                <ul>
+                  <li>Full Stack Dev</li>
+                  <li>2015</li>
+                </ul>
+              </div>
+              <p>
+                Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+              </p>
+              <ul class="buttons">
+                <li class="btn">html</li>
+                <li class="btn rub">Ruby on rails</li>
+                <li class="btn">css</li>
+                <li class="btn">javaScript</li>
+              </ul>
+              <button class="btn-large">See Project</button>
+            </div>
+          </div>
+          <div class="card c-4">
+            <img src="./img/mp-stories.png" alt="Multi-post Stories" />
+            <div class="card-text">
+              <h2>Multi-Post Stories</h2>
+              <div class="under-header-text">
+                <h4>CANOPY</h4>
+                <ul>
+                  <li>Back End Dev</li>
+                  <li>2015</li>
+                </ul>
+              </div>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <ul class="buttons">
+                <li class="btn">html</li>
+                <li class="btn rub">Ruby on rails</li>
+                <li class="btn">css</li>
+                <li class="btn">javaScript</li>
+              </ul>
+              <button class="btn-large">See Project</button>
+            </div>
           </div>
         </div>
       </section>
       <section class="pf-about">
-        <div class="contents">
-          <h1>About <br />Myself</h1>
-          <p>
-            I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to contact me.
-          </p>
-          <div class="social-link">
-            <a href=""><p>LET’S CONNECT</p></a>
-            <ul>
-              <li>
-                <a href="#"><img src="./img/twitter.png" alt="Twitter Icon" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="./img/linkedin.png" alt="Linkedin Icon" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="./img/m-icon.png" alt="M Icon" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="./img/git.png" alt="Github Icon" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="./img/v-icon.png" alt="V Icon" /></a>
-              </li>
-            </ul>
+        <div class="abt-contents">
+          <div class="text-contents">
+            <h1>About <br />Myself</h1>
+            <p>
+              I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like
+              what you see and have a project you need coded, don’t hestiate to contact me.
+            </p>
+            <div class="social-link">
+              <a href=""><p>LET’S CONNECT</p></a>
+              <ul>
+                <li>
+                  <a href="#"><img src="./img/twitter.png" alt="Twitter Icon" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/linkedin.png" alt="Linkedin Icon" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/m-icon.png" alt="M Icon" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/git.png" alt="Github Icon" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/v-icon.png" alt="V Icon" /></a>
+                </li>
+              </ul>
+            </div>
+            <button class="btn-large">Get my resume</button>
           </div>
-          <button class="btn-large">Get my resume</button>
+
           <div class="section-dropdown">
             <ul class="drop-down">
               <li><p>Languages</p></li>
@@ -183,21 +217,23 @@
         </div>
       </section>
       <section class="pf-contact-form">
-        <div class="form-div">
-          <div class="cf-details">
-            <h1 class="cf-h1">Contact me</h1>
-            <p class="cf-text">
-              If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to
-              help with it
-            </p>
-          </div>
-          <div class="cf-form">
-            <form action="https://formspree.io/f/xrgvblrz" method="POST">
-              <input type="text" id="fname" name="fname" placeholder="Input your name here" maxlength="30" required />
-              <input type="email" id="email" name="email" placeholder="Input your email here" required />
-              <textarea id="message" maxlength="500" placeholder="Write your message here:" required></textarea>
-              <button type="submit" class="submit-button">Get In Touch</button>
-            </form>
+        <div class="form-bg-div">
+          <div class="form-div">
+            <div class="cf-details">
+              <h1 class="cf-h1">Contact me</h1>
+              <p class="cf-text">
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to
+                help with it
+              </p>
+            </div>
+            <div class="cf-form">
+              <form action="https://formspree.io/f/xrgvblrz" method="POST">
+                <input type="text" id="fname" name="fname" placeholder="Input your name here" maxlength="30" required />
+                <input type="email" id="email" name="email" placeholder="Input your email here" required />
+                <textarea id="message" maxlength="500" placeholder="Write your message here:" required></textarea>
+                <button type="submit" class="submit-button">Get In Touch</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
