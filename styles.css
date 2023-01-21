@@ -207,7 +207,7 @@ textarea::placeholder {
   color: #b3bac5;
 }
 
-@media screen and (min-width: 545px) {
+@media only screen and (min-width: 426px) {
   h1 {
     padding-right: 45%;
   }
@@ -425,7 +425,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   /* For mobile: */
   .bottom-hr {
     border: 3px solid black;
