@@ -35,11 +35,11 @@ hr {
   opacity: 0.4;
 }
 
-.social-link > a > p {
+.social-link>a>p {
   color: #7f8cff;
 }
 
-.social-link > ul {
+.social-link>ul {
   list-style: none;
   display: flex;
   align-items: baseline;
@@ -54,7 +54,7 @@ hr {
   margin-top: -9px;
 }
 
-.under-header-text > ul {
+.under-header-text>ul {
   display: flex;
   gap: 29px;
   color: #7a869a;
@@ -117,7 +117,7 @@ hr {
   padding-bottom: 123px;
 }
 
-.pf-about > .contents > .btn-large {
+.pf-about>.contents>.btn-large {
   width: 176px;
   margin: 0;
 }
@@ -162,7 +162,7 @@ hr {
   color: #fff;
 }
 
-.cf-form > form {
+.cf-form>form {
   display: flex;
   flex-direction: column;
 }
@@ -240,7 +240,7 @@ textarea::placeholder {
     width: 56px;
   }
 
-  .desktop-nav > ul {
+  .desktop-nav>ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -249,7 +249,7 @@ textarea::placeholder {
     gap: 42px;
   }
 
-  .desktop-nav > ul > li > a {
+  .desktop-nav>ul>li>a {
     color: #344563;
   }
 
@@ -284,7 +284,7 @@ textarea::placeholder {
     gap: 10px;
   }
 
-  .social-link > ul {
+  .social-link>ul {
     gap: 4%;
   }
 
@@ -303,8 +303,15 @@ textarea::placeholder {
     margin: 100px 0;
   }
 
-  .card > img {
+  .card>img {
     width: 50%;
+    transition: transform .2s;
+  }
+
+  .card>img:hover {
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.9);
   }
 
   .c-2 {
@@ -416,7 +423,7 @@ textarea::placeholder {
     background: #2230d2;
   }
 
-  .cf-form > form > button {
+  .cf-form>form>button {
     align-self: center;
   }
 
@@ -426,6 +433,7 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 544px) {
+
   /* For mobile: */
   .bottom-hr {
     border: 3px solid black;
@@ -464,7 +472,9 @@ textarea::placeholder {
 
   .material-symbols-outlined:hover {
     font-size: 28px;
-  } /* navbar code end  */
+  }
+
+  /* navbar code end  */
 
   .pf-headline {
     background-image: url("./img/header-shapes-mobile.png");
@@ -482,13 +492,13 @@ textarea::placeholder {
     flex-direction: column;
   }
 
-  .hdl-contents > p {
+  .hdl-contents>p {
     font-weight: 400;
     line-height: 30px;
     color: #344563;
   }
 
-  .pf-about > .abt-contents {
+  .pf-about>.abt-contents {
     padding: 30px 20px;
   }
 
@@ -502,7 +512,7 @@ textarea::placeholder {
     padding: 10px;
   }
 
-  .card > p {
+  .card>p {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -528,7 +538,7 @@ textarea::placeholder {
     padding: 20px;
   }
 
-  .card > img {
+  .card>img {
     width: 295px;
   }
 
@@ -601,6 +611,7 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 1441px) {
+
   /* For Larger Display */
   .pf-wrap {
     width: 60%;
