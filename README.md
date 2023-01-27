@@ -37,6 +37,7 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
@@ -58,6 +59,12 @@ It is a personal portfolio mobile view page devided into three sections:
 ### Tech Stack <a name="tech-stack"></a>
 
 > This project has build using simple <b>HTML</b> & <b>CSS Flex</b> & <b>Grid</b>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Check the Live demo of my Portfolio website. [Live Demo Link](https://fahim-86.github.io/portfolio-website/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
