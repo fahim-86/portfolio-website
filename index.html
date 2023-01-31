@@ -18,9 +18,9 @@
         <a class="pf-logo" href=""><img class="pf-logo" src="./img/F_logo.png" alt="Fahim logo" /></a>
         <nav class="desktop-nav">
           <ul class="nav-items">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portfolioSection">Portfolio</a></li>
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#formSection">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -29,12 +29,12 @@
       <!---------------- Mobile Menu ------------>
       <header class="pf-header">
         <a class="pf-logo" href=""><img class="pf-logo" src="./img/F_logo.png" alt="Fahim logo" /></a>
-        <button class="material-symbols-outlined" data-target>menu</button>
-        <div class="collapsed" id="navbarSupportedContents">
+        <a href="#" class="material-symbols-outlined" id="toggleMenuButton">menu</a>
+        <div class="collapsed" id="toggleMenuItems">
           <ul class="coll-nav-items">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portfolioSection">Portfolio</a></li>
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#formSection">Contact</a></li>
           </ul>
         </div>
       </header>
@@ -68,7 +68,7 @@
           </div>
         </div>
       </section>
-      <section class="pf-works">
+      <section class="pf-works" id="portfolioSection">
         <div class="pf-portfolio">
           <div class="card c-1">
             <img src="./img/tonic-2.png" alt="Multi-post Stories" />
@@ -160,7 +160,7 @@
           </div>
         </div>
       </section>
-      <section class="pf-about">
+      <section class="pf-about" id="aboutSection">
         <div class="abt-contents">
           <div class="text-contents">
             <h1>About <br />Myself</h1>
@@ -223,7 +223,7 @@
           </div>
         </div>
       </section>
-      <section class="pf-contact-form">
+      <section class="pf-contact-form" id="formSection">
         <div class="form-bg-div">
           <div class="form-div">
             <div class="cf-details">
@@ -246,5 +246,6 @@
       </section>
       <hr class="bottom-hr" />
     </div>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
