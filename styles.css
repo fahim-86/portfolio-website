@@ -454,6 +454,10 @@ textarea::placeholder {
     width: 56px;
   }
 
+  .m-icon {
+    color: #6070ff;
+  }
+
   .rub {
     display: none;
   }
