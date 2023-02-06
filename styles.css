@@ -483,11 +483,17 @@ textarea::placeholder {
   #toggleMenuItems ul {
     list-style: none;
     padding-top: 10px;
+    padding-left: 0;
   }
 
   #toggleMenuItems ul li {
-    list-style: none;
-    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 65px;
+  }
+
+  #toggleMenuItems ul li a {
+    color: #fff;
   }
 
   .rub {
