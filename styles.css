@@ -48,6 +48,10 @@ hr {
   gap: 7%;
 }
 
+.pf-logo {
+  width: 56px;
+}
+
 .under-header-text {
   display: flex;
   align-items: center;
@@ -234,10 +238,6 @@ textarea::placeholder {
     align-items: center;
     padding: 1rem 7rem;
     background-color: #fff;
-  }
-
-  .pf-logo {
-    width: 56px;
   }
 
   .desktop-nav > ul {
@@ -450,12 +450,44 @@ textarea::placeholder {
     display: none;
   }
 
-  .pf-logo {
-    width: 56px;
+  #m-icon {
+    color: #6070ff;
   }
 
-  .m-icon {
-    color: #6070ff;
+  #x-icon {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .menu-show {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    padding: 2em;
+    opacity: 0.93;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    background-color: blue;
+    height: 100%;
+    width: 85%;
+  }
+
+  .menu-show .toggled {
+    display: block;
+    z-index: 10;
+    transform: scale(1);
+    transition: all 0.5s ease;
+  }
+
+  #toggleMenuItems ul {
+    list-style: none;
+    padding-top: 10px;
+  }
+
+  #toggleMenuItems ul li {
+    list-style: none;
+    padding-top: 10px;
   }
 
   .rub {
