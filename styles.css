@@ -479,6 +479,11 @@ textarea::placeholder {
     transform: scale(1);
     transition: all 0.5s ease;
   }
+  
+  .menu-show > a {
+    position: absolute;
+    padding-right: 36px;
+ }
 
   #toggleMenuItems ul {
     list-style: none;
