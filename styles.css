@@ -233,6 +233,7 @@ textarea::placeholder {
   }
 
   .pop-modal {
+    display: flex;
     position: fixed;
     width: 100%;
     height: fit-content;
@@ -242,10 +243,9 @@ textarea::placeholder {
     right: 0;
     visibility: hidden;
     background-color: #c1c7d0;
-    z-index: 8;
-    display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 8;
   }
 
   .showModal {
@@ -255,11 +255,11 @@ textarea::placeholder {
   .pop-inner-modal {
     background-color: #fff;
     width: 90%;
-    border-radius: 20px;
-    padding: 1rem;
     height: auto;
     margin: 25px;
+    padding: 1rem;
     padding-bottom: 0;
+    border-radius: 20px;
   }
 
   .pf-desktop-header {
