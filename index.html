@@ -20,6 +20,11 @@
   </head>
   <body>
     <div class="pf-wrap">
+      <div class="pop-modal">
+        <button class="cancel" type="button"><i class="fa fa-times" id="x-icon" aria-hidden="true"></i></button>
+
+        <div class="pop-inner-modal"></div>
+      </div>
       <!---------------- Desktop Menu ------------>
       <header class="pf-desktop-header">
         <a class="pf-logo" href=""><img class="pf-logo" src="./img/F_logo.png" alt="Fahim logo" /></a>
@@ -39,7 +44,7 @@
         <a href="#" class="" id="toggleMenuButton"><i class="fa fa-bars" id="m-icon" aria-hidden="true"></i></a>
 
         <div hidden class="menu-show" id="toggleMenuItems">
-          <a href="#"><i class="fa fa-times" id="x-icon" aria-hidden="true"></i></a>
+          <a href="#" class="m-close"><i class="fa fa-times" id="x-icon" aria-hidden="true"></i></a>
           <ul class="coll-nav-items">
             <li><a href="#portfolioSection">Portfolio</a></li>
             <li><a href="#aboutSection">About</a></li>

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.pf-header').classList.toggle('toggled');
     document.querySelector('#toggleMenuItems').toggleAttribute('hidden');
   });
-  document.querySelector('#x-icon').addEventListener('click', () => {
+  document.querySelector('.m-close > #x-icon').addEventListener('click', () => {
     document.querySelector('#toggleMenuItems').toggleAttribute('hidden');
   });
   document.querySelectorAll('.coll-nav-items li').forEach((item) => {
