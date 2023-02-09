@@ -1,10 +1,6 @@
 const modal = document.querySelector('.pop-modal');
 const innerModal = document.querySelector('.pop-inner-modal');
 const cancelModal = document.querySelector('.cancel');
-// const works = document.querySelector('#portfolio-popup');
-const width = window.innerWidth;
-const isDesktop = width > 320;
-// const isMobile = width > 320 && width < 425;
 
 const cards = [
   {
@@ -95,8 +91,6 @@ const cards = [
 
 const loadWorks = (data, btnID) => {
   let display = ' ';
-  console.log(data);
-  console.log('This is' + btnID);
   if (btnID === 'loadModal') {
     display += `<div class="card-text">
       <h2>${data[0].name}</h2>

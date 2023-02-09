@@ -525,6 +525,76 @@ textarea::placeholder {
     background-color: #e5e5e5;
   }
 
+  .pop-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: #c1c7d0d3;
+    backdrop-filter: blur(4px);
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding-top: 1rem;
+  }
+
+  .pop-modal > .cancel {
+    position: absolute;
+    right: -1%;
+    top: 0%;
+    display: block;
+    border: none;
+    background: no-repeat;
+    color: black;
+    font-size: 22px;
+  }
+
+  .pop-modal > .cancel > i#x-icon {
+    color: #67798e;
+    font-size: 18px;
+  }
+
+  .pop-inner-modal {
+    background-color: #fff;
+    width: 80%;
+    height: 93%;
+    border-radius: 20px;
+    padding: 1rem;
+    padding-bottom: 0;
+    overflow-y: auto;
+  }
+
+  .showModal {
+    visibility: visible;
+  }
+
+  .pop-txt-btn > .buttons {
+    flex-wrap: wrap;
+    padding-right: 17px;
+    margin-bottom: 30px;
+  }
+
+  .card > img {
+    width: 295px;
+  }
+
+  .pop-lrg-btn {
+    display: flex;
+    gap: 9px;
+  }
+
+  .pop-lrg-btn > .btn-large {
+    font-size: 15px;
+    margin: 15px 0 17px;
+    width: 115px;
+  }
+
+  .pop-lrg-btn > .btn-large img {
+    width: 13px;
+    padding-left: 5px;
+  }
+
   .pf-header {
     display: flex;
     justify-content: space-between;
@@ -587,33 +657,6 @@ textarea::placeholder {
 
   #toggleMenuItems ul li a {
     color: #fff;
-  }
-
-  .pop-modal {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    background-color: #c1c7d0;
-    z-index: 8;
-    display: flex;
-    justify-content: center;
-    overflow: auto;
-    padding-top: 1rem;
-  }
-
-  .pop-inner-modal {
-    background-color: #fff;
-    width: 90%;
-    height: 100%;
-    border-radius: 20px;
-    padding: 1rem;
-    padding-bottom: 0;
-    overflow-y: auto;
-  }
-
-  .showModal {
-    visibility: visible;
   }
 
   .rub {
@@ -688,10 +731,6 @@ textarea::placeholder {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     padding: 20px;
-  }
-
-  .card > img {
-    width: 295px;
   }
 
   .section-dropdown {
