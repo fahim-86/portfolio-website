@@ -106,7 +106,7 @@ hr {
   border-radius: 8px;
   color: #396df2;
   padding: 12px 12px;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-size: 17px;
