@@ -20,6 +20,11 @@
   </head>
   <body>
     <div class="pf-wrap">
+      <div class="pop-modal">
+        <button class="cancel" type="button"><i class="fa fa-times" id="x-icon" aria-hidden="true"></i></button>
+
+        <div class="pop-inner-modal"></div>
+      </div>
       <!---------------- Desktop Menu ------------>
       <header class="pf-desktop-header">
         <a class="pf-logo" href=""><img class="pf-logo" src="./img/F_logo.png" alt="Fahim logo" /></a>
@@ -39,7 +44,7 @@
         <a href="#" class="" id="toggleMenuButton"><i class="fa fa-bars" id="m-icon" aria-hidden="true"></i></a>
 
         <div hidden class="menu-show" id="toggleMenuItems">
-          <a href="#"><i class="fa fa-times" id="x-icon" aria-hidden="true"></i></a>
+          <a href="#" class="m-close"><i class="fa fa-times" id="x-icon" aria-hidden="true"></i></a>
           <ul class="coll-nav-items">
             <li><a href="#portfolioSection">Portfolio</a></li>
             <li><a href="#aboutSection">About</a></li>
@@ -96,7 +101,7 @@
                 <li class="btn">css</li>
                 <li class="btn">javaScript</li>
               </ul>
-              <button class="btn-large">See Project</button>
+              <button class="btn-large" id="loadModal" value="0">See Project</button>
             </div>
           </div>
           <div class="card c-2">
@@ -120,7 +125,7 @@
                 <li class="btn">css</li>
                 <li class="btn">javaScript</li>
               </ul>
-              <button class="btn-large">See Project</button>
+              <button class="btn-large" id="loadModal2" value="1">See Project</button>
             </div>
           </div>
           <div class="card c-3">
@@ -143,7 +148,7 @@
                 <li class="btn">css</li>
                 <li class="btn">javaScript</li>
               </ul>
-              <button class="btn-large">See Project</button>
+              <button class="btn-large" id="loadModal3" value="2">See Project</button>
             </div>
           </div>
           <div class="card c-4">
@@ -164,7 +169,7 @@
                 <li class="btn">css</li>
                 <li class="btn">javaScript</li>
               </ul>
-              <button class="btn-large">See Project</button>
+              <button class="btn-large" id="loadModal4" value="3">See Project</button>
             </div>
           </div>
         </div>
@@ -253,8 +258,10 @@
           </div>
         </div>
       </section>
+      <sectworksion id="portfolio-popup"></sectworksion>
       <hr class="bottom-hr" />
     </div>
     <script src="./assets/script.js"></script>
+    <script src="./assets/popup.js"></script>
   </body>
 </html>

@@ -58,6 +58,13 @@ hr {
   margin-top: -9px;
 }
 
+.card-text > .pop-img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .under-header-text > ul {
   display: flex;
   gap: 29px;
@@ -99,7 +106,7 @@ hr {
   border-radius: 8px;
   color: #396df2;
   padding: 12px 12px;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-size: 17px;
@@ -232,6 +239,91 @@ textarea::placeholder {
     display: none;
   }
 
+  .pop-modal {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: #c1c7d0dc;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+  }
+
+  .showModal {
+    visibility: visible;
+  }
+
+  .pop-modal > .cancel {
+    position: absolute;
+    right: 20%;
+    top: 8%;
+    display: block;
+    border: none;
+    background: no-repeat;
+    color: black;
+    font-size: 22px;
+  }
+
+  .pop-inner-modal {
+    background-color: #fff;
+    width: 65%;
+    height: 560px;
+    margin: 25px;
+    padding: 1rem;
+    padding-bottom: 0;
+    padding-right: 0;
+    border-radius: 20px;
+    overflow-y: auto;
+  }
+
+  .pop-txt-btn {
+    display: flex;
+    padding-bottom: 50px;
+  }
+
+  .pop-txt-btn > .buttons {
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 4% 17px 2% 25px;
+    width: 325px;
+  }
+
+  .card > img {
+    width: 50%;
+    transition: transform 0.2s;
+  }
+
+  .pop-lrg-btn {
+    display: flex;
+    gap: 9px;
+  }
+
+  .pop-lrg-btn > .btn-large {
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    padding: 5px 10px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px 0 17px;
+    width: 115px;
+  }
+
+  .pop-lrg-btn > .btn-large img {
+    width: 13px;
+    padding-left: 5px;
+  }
+
   .pf-desktop-header {
     display: flex;
     justify-content: space-between;
@@ -301,11 +393,6 @@ textarea::placeholder {
     background-color: #fff;
     border-radius: 24px;
     margin: 100px 0;
-  }
-
-  .card > img {
-    width: 50%;
-    transition: transform 0.2s;
   }
 
   .card > img:hover {
@@ -443,6 +530,76 @@ textarea::placeholder {
 
   .pf-wrap {
     background-color: #e5e5e5;
+  }
+
+  .pop-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: #c1c7d0d3;
+    backdrop-filter: blur(4px);
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding-top: 1rem;
+  }
+
+  .pop-modal > .cancel {
+    position: absolute;
+    right: -1%;
+    top: 0%;
+    display: block;
+    border: none;
+    background: no-repeat;
+    color: black;
+    font-size: 22px;
+  }
+
+  .pop-modal > .cancel > i#x-icon {
+    color: #67798e;
+    font-size: 18px;
+  }
+
+  .pop-inner-modal {
+    background-color: #fff;
+    width: 80%;
+    height: 93%;
+    border-radius: 20px;
+    padding: 1rem;
+    padding-bottom: 0;
+    overflow-y: auto;
+  }
+
+  .showModal {
+    visibility: visible;
+  }
+
+  .pop-txt-btn > .buttons {
+    flex-wrap: wrap;
+    padding-right: 17px;
+    margin-bottom: 30px;
+  }
+
+  .card > img {
+    width: 295px;
+  }
+
+  .pop-lrg-btn {
+    display: flex;
+    gap: 9px;
+  }
+
+  .pop-lrg-btn > .btn-large {
+    font-size: 15px;
+    margin: 15px 0 17px;
+    width: 115px;
+  }
+
+  .pop-lrg-btn > .btn-large img {
+    width: 13px;
+    padding-left: 5px;
   }
 
   .pf-header {
@@ -583,10 +740,6 @@ textarea::placeholder {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     padding: 20px;
-  }
-
-  .card > img {
-    width: 295px;
   }
 
   .section-dropdown {
