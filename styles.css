@@ -676,7 +676,9 @@ textarea::placeholder {
 
   .material-symbols-outlined:hover {
     font-size: 28px;
-  } /* navbar code end  */
+  }
+
+  /* navbar code end  */
 
   .pf-headline {
     background-image: url("./img/header-shapes-mobile.png");
