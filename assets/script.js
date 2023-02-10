@@ -12,3 +12,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+const form = document.querySelector('form');
+const alertMsg = document.querySelector('small');
+form.addEventListener('submit', (event) => {
+  const email = document.querySelector('.email-input-fld');
+  const emailRegExp = /[A-Z]/;
+  if (!emailRegExp.test(email.value)) {
+    form.submit();
+  } else {
+    event.preventDefault();
+    alertMsg.innerText = '* Please Enter Your Email Only In Lower Case';
+  }
+});
