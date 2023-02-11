@@ -30,19 +30,19 @@ form.addEventListener('submit', (event) => {
 
 const dataTotal = {};
 document.addEventListener('keyup', () => {
-  dataTotal.name = document.querySelector('.name-area').value;
-  dataTotal.email = document.querySelector('.email-area').value;
-  dataTotal.text = document.querySelector('.text-area').value;
+  dataTotal.name = document.querySelector('.fname-input-fld').value;
+  dataTotal.email = document.querySelector('.email-input-fld').value;
+  dataTotal.text = document.querySelector('.text-input-fld').value;
   const allData = JSON.stringify(dataTotal);
   localStorage.setItem('dataTotal', allData);
 });
 
 const storeItem = () => {
-  const parsedData = JSON.parse(localStorage.getItem('sum'));
-  const name = document.querySelector('.name-area');
-  const email = document.querySelector('.email-area');
-  const text = document.querySelector('.text-area');
-  name.value = parsedData.name;
+  const parsedData = JSON.parse(localStorage.getItem('dataTotal'));
+  const fname = document.querySelector('.fname-input-fld');
+  const email = document.querySelector('.email-input-fld');
+  const text = document.querySelector('.text-input-fld');
+  fname.value = parsedData.name;
   email.value = parsedData.email;
   text.value = parsedData.text;
 };
