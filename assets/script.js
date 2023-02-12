@@ -42,6 +42,7 @@ const storeItem = () => {
   const fname = document.querySelector('.fname-input-fld');
   const email = document.querySelector('.email-input-fld');
   const text = document.querySelector('.text-input-fld');
+  if (sessionStorage.getItem('parsedData.name' === '')) { return; }
   fname.value = parsedData.name;
   email.value = parsedData.email;
   text.value = parsedData.text;
